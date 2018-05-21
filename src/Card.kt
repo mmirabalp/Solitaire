@@ -12,5 +12,15 @@
 
 //    val value: Int =0
 //
+val diamonds = "Diamonds";
+val harts = "Harts";
 
-class Card(val value: Int, val suit: String, var faceUp: Boolean = false)
+val clubs = "Clubs";
+val spades = "Spades";
+
+val redSuits = arrayOf(diamonds, harts);
+val blackSuits = arrayOf(clubs, spades)
+
+class Card(val value: Int, val suit: String, var faceUp: Boolean = false) {
+
+}
